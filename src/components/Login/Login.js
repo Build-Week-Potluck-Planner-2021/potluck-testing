@@ -35,7 +35,7 @@ class Login extends React.Component {
   render() {
     return (
       <div className='base-container' ref={this.props.containerRef}>
-        <div className='header'>Login</div>
+        {/* <div className='header'>Login</div> */}
         <div className='content'>
           <UserForm className='form' onSubmit={this.handleLogin}>
               <label htmlFor='username'>Username</label>
